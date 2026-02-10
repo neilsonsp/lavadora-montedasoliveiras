@@ -34,15 +34,18 @@
             background: rgba(108, 99, 255, 0.1);
             color: #6c63ff;
         }
+        .badge-number {
+            background: #6c63ff;
+            color: white;
+        }
     </style>
 </head>
 <body class="text-slate-800">
 
-    <!-- Versão 2 - Header com Design Moderno -->
+    <!-- Header -->
     <header class="relative overflow-hidden py-16 lg:py-24">
         <div class="absolute top-0 left-0 w-full h-full gradient-bg opacity-5 -z-10"></div>
         <div class="container mx-auto px-4 text-center">
-            
             <h1 class="text-5xl lg:text-6xl font-extrabold mb-6 tracking-tight">
                  <span class="gradient-text">Pesquisa de preços de Lavadoras - Monte das Oliveiras</span>
             </h1>
@@ -57,11 +60,14 @@
         <!-- Grid de Produtos -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
             
-            <!-- ZM Bombas LR-14 -->
-            <div class="glass-card rounded-[2rem] overflow-hidden shadow-sm">
+            <!-- Card 1 -->
+            <div class="glass-card rounded-[2rem] overflow-hidden shadow-sm relative">
                 <div class="relative p-6 bg-slate-50">
+                    <!-- Etiqueta Numerada -->
+                    <div class="absolute top-4 left-4 z-10">
+                        <span class="badge-number px-4 py-1 rounded-lg text-sm font-black shadow-md">#01</span>
+                    </div>
                     <img src="https://http2.mlstatic.com/D_NQ_NP_2X_771524-MLB79793286522_102024-F.webp" alt="ZM LR-14" class="w-full h-64 object-contain mix-blend-multiply">
-                    
                 </div>
                 <div class="p-8">
                     <div class="flex flex-col mb-6">
@@ -78,542 +84,324 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="space-y-4 border-t border-slate-100 pt-6">
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Vazão</span>
-                            <span class="font-bold text-slate-900">14 L/min</span>
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Pressão</span>
-                            <span class="font-bold text-slate-900">22,06 bar</span>
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Motor</span>
-                            <span class="font-bold text-slate-900">WEG 1.0 CV</span>
-                        </div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Vazão</span><span class="font-bold text-slate-900">14 L/min</span></div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Pressão</span><span class="font-bold text-slate-900">22,06 bar</span></div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Motor</span><span class="font-bold text-slate-900">WEG 1.0 CV</span></div>
                     </div>
-                    
-                    <!-- Botão alterado para Link -->
-                    <a href="https://www.mercadolivre.com.br/lavadora-de-media-presso-zm-bombas-lava-rapido-lr-14-de-7457w-com-22063bar-de-presso-maxima-60hz/p/MLB15461358#polycard_client=search_best-seller&tracking_id=37d924d4-a6ff-45e7-b106-ffa12c5791ef&wid=MLB3888637803&sid=search" target="_blank" class="block w-full text-center mt-8 py-4 gradient-bg text-white font-bold rounded-2xl shadow-lg shadow-indigo-200 hover:shadow-indigo-300 transition-all">
-                        Ver Detalhes
-                    </a>
+                    <a href="https://www.mercadolivre.com.br/lavadora-de-media-presso-zm-bombas-lava-rapido-lr-14-de-7457w-com-22063bar-de-presso-maxima-60hz/p/MLB15461358#polycard_client=search_best-seller&tracking_id=37d924d4-a6ff-45e7-b106-ffa12c5791ef&wid=MLB3888637803&sid=search" target="_blank" class="block w-full text-center mt-8 py-4 gradient-bg text-white font-bold rounded-2xl shadow-lg shadow-indigo-200 hover:shadow-indigo-300 transition-all">Ver Detalhes</a>
                 </div>
             </div>
 
-            
-            <div class="glass-card rounded-[2rem] overflow-hidden shadow-sm">
+            <!-- Card 2 -->
+            <div class="glass-card rounded-[2rem] overflow-hidden shadow-sm relative">
                 <div class="relative p-6 bg-slate-50">
-                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_771524-MLB79793286522_102024-F.webp" alt="Chiaperini LJ 3100" class="w-full h-64 object-contain mix-blend-multiply">
+                    <div class="absolute top-4 left-4 z-10">
+                        <span class="badge-number px-4 py-1 rounded-lg text-sm font-black shadow-md">#02</span>
+                    </div>
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_771524-MLB79793286522_102024-F.webp" alt="ZM LR-14" class="w-full h-64 object-contain mix-blend-multiply">
                 </div>
                 <div class="p-8">
                     <div class="flex flex-col mb-6">
                         <h2 class="text-2xl font-extrabold text-slate-900 mb-2">ZM LR-14</h2>
-                        <div class="flex items-baseline gap-2 mb-3">
-                            <span class="text-3xl font-extrabold text-indigo-600">R$ 2.700,00</span>
-                        </div>
+                        <div class="flex items-baseline gap-2 mb-3"><span class="text-3xl font-extrabold text-indigo-600">R$ 2.700,00</span></div>
                         <div class="flex flex-col gap-2">
-                            <div>
-                                <span class="bg-indigo-50 text-indigo-700 px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-truck mr-1"></i>RETIRAR NA LOJA</span>
-                            </div>
-                            <div>
-                                <span class="bg-orange-50 text-orange-600 px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-store mr-1"></i>JC ARIQUEMES</span>
-                            </div>
+                            <div><span class="bg-indigo-50 text-indigo-700 px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-truck mr-1"></i>RETIRAR NA LOJA</span></div>
+                            <div><span class="bg-orange-50 text-orange-600 px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-store mr-1"></i>JC ARIQUEMES</span></div>
                         </div>
                     </div>
-
                     <div class="space-y-4 border-t border-slate-100 pt-6">
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Vazão</span>
-                            <span class="font-bold text-slate-900">14 L/min</span>
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Pressão</span>
-                            <span class="font-bold text-slate-900">22,06 bar</span>
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Motor</span>
-                            <span class="font-bold text-slate-900">WEG 1.0 CV</span>
-                        </div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Vazão</span><span class="font-bold text-slate-900">14 L/min</span></div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Pressão</span><span class="font-bold text-slate-900">22,06 bar</span></div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Motor</span><span class="font-bold text-slate-900">WEG 1.0 CV</span></div>
                     </div>
-                    
-                    <!-- Botão alterado para Link -->
-                    <a href="#" class="block w-full text-center mt-8 py-4 gradient-bg text-white font-bold rounded-2xl shadow-lg shadow-indigo-200 hover:shadow-indigo-300 transition-all">
-                        Ver Detalhes
-                    </a>
+                    <a href="#" class="block w-full text-center mt-8 py-4 gradient-bg text-white font-bold rounded-2xl shadow-lg shadow-indigo-200 hover:shadow-indigo-300 transition-all">Ver Detalhes</a>
                 </div>
             </div>
 
-            <div class="glass-card rounded-[2rem] overflow-hidden shadow-sm">
+            <!-- Card 3 -->
+            <div class="glass-card rounded-[2rem] overflow-hidden shadow-sm relative">
                 <div class="relative p-6 bg-slate-50">
-                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_771524-MLB79793286522_102024-F.webp" alt="Chiaperini LJ 3100" class="w-full h-64 object-contain mix-blend-multiply">
+                    <div class="absolute top-4 left-4 z-10">
+                        <span class="badge-number px-4 py-1 rounded-lg text-sm font-black shadow-md">#03</span>
+                    </div>
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_771524-MLB79793286522_102024-F.webp" alt="ZM LR-14" class="w-full h-64 object-contain mix-blend-multiply">
                 </div>
                 <div class="p-8">
                     <div class="flex flex-col mb-6">
                         <h2 class="text-2xl font-extrabold text-slate-900 mb-2">ZM LR-14</h2>
-                        <div class="flex items-baseline gap-2 mb-3">
-                            <span class="text-3xl font-extrabold text-indigo-600">R$ 2.700,00</span>
-                        </div>
+                        <div class="flex items-baseline gap-2 mb-3"><span class="text-3xl font-extrabold text-indigo-600">R$ 2.700,00</span></div>
                         <div class="flex flex-col gap-2">
-                            <div>
-                                <span class="bg-indigo-50 text-indigo-700 px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-truck mr-1"></i>RETIRAR NA LOJA</span>
-                            </div>
-                            <div>
-                                <span class="bg-orange-50 text-orange-600 px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-store mr-1"></i>IMPLEMAQ ARIQUEMES</span>
-                            </div>
+                            <div><span class="bg-indigo-50 text-indigo-700 px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-truck mr-1"></i>RETIRAR NA LOJA</span></div>
+                            <div><span class="bg-orange-50 text-orange-600 px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-store mr-1"></i>IMPLEMAQ ARIQUEMES</span></div>
                         </div>
                     </div>
-
                     <div class="space-y-4 border-t border-slate-100 pt-6">
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Vazão</span>
-                            <span class="font-bold text-slate-900">14 L/min</span>
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Pressão</span>
-                            <span class="font-bold text-slate-900">22,06 bar</span>
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Motor</span>
-                            <span class="font-bold text-slate-900">WEG 1.0 CV</span>
-                        </div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Vazão</span><span class="font-bold text-slate-900">14 L/min</span></div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Pressão</span><span class="font-bold text-slate-900">22,06 bar</span></div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Motor</span><span class="font-bold text-slate-900">WEG 1.0 CV</span></div>
                     </div>
-                    
-                    <!-- Botão alterado para Link -->
-                    <a href="#" class="block w-full text-center mt-8 py-4 gradient-bg text-white font-bold rounded-2xl shadow-lg shadow-indigo-200 hover:shadow-indigo-300 transition-all">
-                        Ver Detalhes
-                    </a>
+                    <a href="#" class="block w-full text-center mt-8 py-4 gradient-bg text-white font-bold rounded-2xl shadow-lg shadow-indigo-200 hover:shadow-indigo-300 transition-all">Ver Detalhes</a>
                 </div>
             </div>
 
-            <div class="glass-card rounded-[2rem] overflow-hidden shadow-sm">
+            <!-- Card 4 -->
+            <div class="glass-card rounded-[2rem] overflow-hidden shadow-sm relative">
                 <div class="relative p-6 bg-slate-50">
-                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_771524-MLB79793286522_102024-F.webp" alt="Chiaperini LJ 3100" class="w-full h-64 object-contain mix-blend-multiply">
+                    <div class="absolute top-4 left-4 z-10">
+                        <span class="badge-number px-4 py-1 rounded-lg text-sm font-black shadow-md">#04</span>
+                    </div>
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_771524-MLB79793286522_102024-F.webp" alt="ZM LR-20" class="w-full h-64 object-contain mix-blend-multiply">
                 </div>
                 <div class="p-8">
                     <div class="flex flex-col mb-6">
                         <h2 class="text-2xl font-extrabold text-slate-900 mb-2">ZM LR-20</h2>
-                        <div class="flex items-baseline gap-2 mb-3">
-                            <span class="text-3xl font-extrabold text-indigo-600">R$ 2.469,90</span>
-                        </div>
+                        <div class="flex items-baseline gap-2 mb-3"><span class="text-3xl font-extrabold text-indigo-600">R$ 2.469,90</span></div>
                         <div class="flex flex-col gap-2">
-                            <div>
-                                <span class="bg-indigo-50 text-indigo-700 px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-truck mr-1"></i>+ R$ 118,99</span>
-                            </div>
-                            <div>
-                                <span class="bg-orange-50 text-orange-600 px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-store mr-1"></i>MERCADO LIVRE</span>
-                            </div>
+                            <div><span class="bg-indigo-50 text-indigo-700 px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-truck mr-1"></i>+ R$ 118,99</span></div>
+                            <div><span class="bg-orange-50 text-orange-600 px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-store mr-1"></i>MERCADO LIVRE</span></div>
                         </div>
                     </div>
-
                     <div class="space-y-4 border-t border-slate-100 pt-6">
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Vazão</span>
-                            <span class="font-bold text-slate-900">20 L/min</span>
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Pressão</span>
-                            <span class="font-bold text-slate-900">31,03 bar</span>
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Motor</span>
-                            <span class="font-bold text-slate-900">WEG 2.0 CV</span>
-                        </div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Vazão</span><span class="font-bold text-slate-900">20 L/min</span></div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Pressão</span><span class="font-bold text-slate-900">31,03 bar</span></div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Motor</span><span class="font-bold text-slate-900">WEG 2.0 CV</span></div>
                     </div>
-                    
-                    <!-- Botão alterado para Link -->
-                    <a href="https://www.mercadolivre.com.br/lavadora-de-media-presso-zm-bombas-lr-20-vermelho-e-preta-de-2cv-com-450psi-de-presso-maxima/p/MLB17424703?product_trigger_id=MLB17424703&attributes=COLOR%3AVermelho%2FPreto%2CVOLTAGE%3A220V_vpp&picker=true&quantity=1" target="_blank" class="block w-full text-center mt-8 py-4 gradient-bg text-white font-bold rounded-2xl shadow-lg shadow-indigo-200 hover:shadow-indigo-300 transition-all">
-                        Ver Detalhes
-                    </a>
+                    <a href="https://www.mercadolivre.com.br/lavadora-de-media-presso-zm-bombas-lr-20-vermelho-e-preta-de-2cv-com-450psi-de-presso-maxima/p/MLB17424703?product_trigger_id=MLB17424703&attributes=COLOR%3AVermelho%2FPreto%2CVOLTAGE%3A220V_vpp&picker=true&quantity=1" target="_blank" class="block w-full text-center mt-8 py-4 gradient-bg text-white font-bold rounded-2xl shadow-lg shadow-indigo-200 hover:shadow-indigo-300 transition-all">Ver Detalhes</a>
                 </div>
             </div>
 
-            
-            <div class="glass-card rounded-[2rem] overflow-hidden shadow-sm">
+            <!-- Card 5 -->
+            <div class="glass-card rounded-[2rem] overflow-hidden shadow-sm relative">
                 <div class="relative p-6 bg-slate-50">
-                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_771524-MLB79793286522_102024-F.webp" alt="Eletroplas EL-4000V3" class="w-full h-64 object-contain mix-blend-multiply">
-                    
+                    <div class="absolute top-4 left-4 z-10">
+                        <span class="badge-number px-4 py-1 rounded-lg text-sm font-black shadow-md">#05</span>
+                    </div>
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_771524-MLB79793286522_102024-F.webp" alt="ZM LR-28" class="w-full h-64 object-contain mix-blend-multiply">
                 </div>
                 <div class="p-8">
                     <div class="flex flex-col mb-6">
                         <h2 class="text-2xl font-extrabold text-slate-900 mb-2">ZM LR-28</h2>
-                        <div class="flex items-baseline gap-2 mb-3">
-                            <span class="text-3xl font-extrabold text-indigo-600">R$ 3.596,00</span>
-                        </div>
+                        <div class="flex items-baseline gap-2 mb-3"><span class="text-3xl font-extrabold text-indigo-600">R$ 3.596,00</span></div>
                         <div class="flex flex-col gap-2">
-                            <div>
-                                <span class="badge-purple px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-truck mr-1"></i>RETIRAR NA LOJA</span>
-                            </div>
-                            <div>
-                                <span class="bg-orange-50 text-orange-600 px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-store mr-1"></i>JAMARI MAQUINAS</span>
-                            </div>
+                            <div><span class="badge-purple px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-truck mr-1"></i>RETIRAR NA LOJA</span></div>
+                            <div><span class="bg-orange-50 text-orange-600 px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-store mr-1"></i>JAMARI MAQUINAS</span></div>
                         </div>
                     </div>
-
                     <div class="space-y-4 border-t border-slate-100 pt-6">
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Vazão</span>
-                            <span class="font-bold text-slate-900">28 L/min</span>
-                        </div>
-                         <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Pressão</span>
-                            <span class="font-bold text-slate-900">28,96 bar</span>
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Motor</span>
-                            <span class="font-bold text-slate-900">WEG 3.0 CV</span>
-                        </div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Vazão</span><span class="font-bold text-slate-900">28 L/min</span></div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Pressão</span><span class="font-bold text-slate-900">28,96 bar</span></div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Motor</span><span class="font-bold text-slate-900">WEG 3.0 CV</span></div>
                     </div>
-                    
-                    <!-- Botão alterado para Link -->
-                    <a href="#" class="block w-full text-center mt-8 py-4 gradient-bg text-white font-bold rounded-2xl shadow-lg shadow-indigo-200 hover:shadow-indigo-300 transition-all">
-                        Ver Detalhes
-                    </a>
+                    <a href="#" class="block w-full text-center mt-8 py-4 gradient-bg text-white font-bold rounded-2xl shadow-lg shadow-indigo-200 hover:shadow-indigo-300 transition-all">Ver Detalhes</a>
                 </div>
             </div>
 
-
-            <div class="glass-card rounded-[2rem] overflow-hidden shadow-sm">
+            <!-- Card 6 -->
+            <div class="glass-card rounded-[2rem] overflow-hidden shadow-sm relative">
                 <div class="relative p-6 bg-slate-50">
-                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_771524-MLB79793286522_102024-F.webp" alt="Eletroplas EL-4000V3" class="w-full h-64 object-contain mix-blend-multiply">
-                    
+                    <div class="absolute top-4 left-4 z-10">
+                        <span class="badge-number px-4 py-1 rounded-lg text-sm font-black shadow-md">#06</span>
+                    </div>
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_771524-MLB79793286522_102024-F.webp" alt="ZM LR-28" class="w-full h-64 object-contain mix-blend-multiply">
                 </div>
                 <div class="p-8">
                     <div class="flex flex-col mb-6">
                         <h2 class="text-2xl font-extrabold text-slate-900 mb-2">ZM LR-28</h2>
-                        <div class="flex items-baseline gap-2 mb-3">
-                            <span class="text-3xl font-extrabold text-indigo-600">R$ 2.500,00</span>
-                        </div>
+                        <div class="flex items-baseline gap-2 mb-3"><span class="text-3xl font-extrabold text-indigo-600">R$ 2.500,00</span></div>
                         <div class="flex flex-col gap-2">
-                            <div>
-                                <span class="badge-purple px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-truck mr-1"></i>FRETE GRÁTIS</span>
-                            </div>
-                            <div>
-                                <span class="bg-orange-50 text-orange-600 px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-store mr-1"></i>MERCADO LIVRE</span>
-                            </div>
+                            <div><span class="badge-purple px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-truck mr-1"></i>FRETE GRÁTIS</span></div>
+                            <div><span class="bg-orange-50 text-orange-600 px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-store mr-1"></i>MERCADO LIVRE</span></div>
                         </div>
                     </div>
-
                     <div class="space-y-4 border-t border-slate-100 pt-6">
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Vazão</span>
-                            <span class="font-bold text-slate-900">28 L/min</span>
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Pressão</span>
-                            <span class="font-bold text-slate-900">28,96 bar</span>
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Motor</span>
-                            <span class="font-bold text-slate-900">WEG 3.0 CV</span>
-                        </div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Vazão</span><span class="font-bold text-slate-900">28 L/min</span></div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Pressão</span><span class="font-bold text-slate-900">28,96 bar</span></div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Motor</span><span class="font-bold text-slate-900">WEG 3.0 CV</span></div>
                     </div>
-                    
-                    <!-- Botão alterado para Link -->
-                    <a href="https://www.mercadolivre.com.br/lavadora-media-presso-zm-bombas-lr-283-28958bar-28lmin-profissional/p/MLB18059413#polycard_client=search_best-seller&tracking_id=37d924d4-a6ff-45e7-b106-ffa12c5791ef&wid=MLB4431307294&sid=search" target="_blank" class="block w-full text-center mt-8 py-4 gradient-bg text-white font-bold rounded-2xl shadow-lg shadow-indigo-200 hover:shadow-indigo-300 transition-all">
-                        Ver Detalhes
-                    </a>
+                    <a href="https://www.mercadolivre.com.br/lavadora-media-presso-zm-bombas-lr-283-28958bar-28lmin-profissional/p/MLB18059413#polycard_client=search_best-seller&tracking_id=37d924d4-a6ff-45e7-b106-ffa12c5791ef&wid=MLB4431307294&sid=search" target="_blank" class="block w-full text-center mt-8 py-4 gradient-bg text-white font-bold rounded-2xl shadow-lg shadow-indigo-200 hover:shadow-indigo-300 transition-all">Ver Detalhes</a>
                 </div>
             </div>
 
-            <div class="glass-card rounded-[2rem] overflow-hidden shadow-sm">
+            <!-- Card 7 -->
+            <div class="glass-card rounded-[2rem] overflow-hidden shadow-sm relative">
                 <div class="relative p-6 bg-slate-50">
-                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_636733-MLA99444632476_112025-F.webp" alt="Eletroplas EL-4000V3" class="w-full h-64 object-contain mix-blend-multiply">
-                    
+                    <div class="absolute top-4 left-4 z-10">
+                        <span class="badge-number px-4 py-1 rounded-lg text-sm font-black shadow-md">#07</span>
+                    </div>
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_636733-MLA99444632476_112025-F.webp" alt="CHIAPERINI LJ14L" class="w-full h-64 object-contain mix-blend-multiply">
                 </div>
                 <div class="p-8">
                     <div class="flex flex-col mb-6">
                         <h2 class="text-2xl font-extrabold text-slate-900 mb-2">CHIAPERINI LJ14L</h2>
-                        <div class="flex items-baseline gap-2 mb-3">
-                            <span class="text-3xl font-extrabold text-indigo-600">R$ 1.959,00</span>
-                        </div>
+                        <div class="flex items-baseline gap-2 mb-3"><span class="text-3xl font-extrabold text-indigo-600">R$ 1.959,00</span></div>
                         <div class="flex flex-col gap-2">
-                            <div>
-                                <span class="badge-purple px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-truck mr-1"></i>+ R$ 64,99</span>
-                            </div>
-                            <div>
-                                <span class="bg-orange-50 text-orange-600 px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-store mr-1"></i>MERCADO LIVRE</span>
-                            </div>
+                            <div><span class="badge-purple px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-truck mr-1"></i>+ R$ 64,99</span></div>
+                            <div><span class="bg-orange-50 text-orange-600 px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-store mr-1"></i>MERCADO LIVRE</span></div>
                         </div>
                     </div>
-
                     <div class="space-y-4 border-t border-slate-100 pt-6">
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Vazão</span>
-                            <span class="font-bold text-slate-900">14 L/min</span>
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Pressão</span>
-                            <span class="font-bold text-slate-900">22,06 bar</span>
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Motor</span>
-                            <span class="font-bold text-slate-900">WEG 1.0 CV</span>
-                        </div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Vazão</span><span class="font-bold text-slate-900">14 L/min</span></div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Pressão</span><span class="font-bold text-slate-900">22,06 bar</span></div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Motor</span><span class="font-bold text-slate-900">WEG 1.0 CV</span></div>
                     </div>
-                    
-                    <!-- Botão alterado para Link -->
-                    <a href="https://www.mercadolivre.com.br/chiaperini-14l-cmm-1hp-preto-220v/p/MLB28071520?product_trigger_id=MLB28071520&attributes=COLOR%3APreto%2CVOLTAGE%3A220V_vpp&picker=true&quantity=1" target="_blank" class="block w-full text-center mt-8 py-4 gradient-bg text-white font-bold rounded-2xl shadow-lg shadow-indigo-200 hover:shadow-indigo-300 transition-all">
-                        Ver Detalhes
-                    </a>
+                    <a href="https://www.mercadolivre.com.br/chiaperini-14l-cmm-1hp-preto-220v/p/MLB28071520?product_trigger_id=MLB28071520&attributes=COLOR%3APreto%2CVOLTAGE%3A220V_vpp&picker=true&quantity=1" target="_blank" class="block w-full text-center mt-8 py-4 gradient-bg text-white font-bold rounded-2xl shadow-lg shadow-indigo-200 hover:shadow-indigo-300 transition-all">Ver Detalhes</a>
                 </div>
             </div>
 
-            <div class="glass-card rounded-[2rem] overflow-hidden shadow-sm">
+            <!-- Card 8 -->
+            <div class="glass-card rounded-[2rem] overflow-hidden shadow-sm relative">
                 <div class="relative p-6 bg-slate-50">
-                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_661977-MLA99480096936_112025-F.webp" alt="Eletroplas EL-4000V3" class="w-full h-64 object-contain mix-blend-multiply">
-                    
+                    <div class="absolute top-4 left-4 z-10">
+                        <span class="badge-number px-4 py-1 rounded-lg text-sm font-black shadow-md">#08</span>
+                    </div>
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_661977-MLA99480096936_112025-F.webp" alt="CHIAPERINI LJ330" class="w-full h-64 object-contain mix-blend-multiply">
                 </div>
                 <div class="p-8">
                     <div class="flex flex-col mb-6">
                         <h2 class="text-2xl font-extrabold text-slate-900 mb-2">CHIAPERINI LJ330</h2>
-                        <div class="flex items-baseline gap-2 mb-3">
-                            <span class="text-3xl font-extrabold text-indigo-600">R$ 2.500,61</span>
-                        </div>
+                        <div class="flex items-baseline gap-2 mb-3"><span class="text-3xl font-extrabold text-indigo-600">R$ 2.500,61</span></div>
                         <div class="flex flex-col gap-2">
-                            <div>
-                                <span class="badge-purple px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-truck mr-1"></i>+ R$ 116,99</span>
-                            </div>
-                            <div>
-                                <span class="bg-orange-50 text-orange-600 px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-store mr-1"></i>MERCADO LIVRE</span>
-                            </div>
+                            <div><span class="badge-purple px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-truck mr-1"></i>+ R$ 116,99</span></div>
+                            <div><span class="bg-orange-50 text-orange-600 px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-store mr-1"></i>MERCADO LIVRE</span></div>
                         </div>
                     </div>
-
                     <div class="space-y-4 border-t border-slate-100 pt-6">
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Vazão</span>
-                            <span class="font-bold text-slate-900">20 L/min</span>
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Pressão</span>
-                            <span class="font-bold text-slate-900">22,75 bar</span>
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Motor</span>
-                            <span class="font-bold text-slate-900">2.0 CV</span>
-                        </div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Vazão</span><span class="font-bold text-slate-900">20 L/min</span></div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Pressão</span><span class="font-bold text-slate-900">22,75 bar</span></div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Motor</span><span class="font-bold text-slate-900">2.0 CV</span></div>
                     </div>
-                    
-                    <!-- Botão alterado para Link -->
-                    <a href="https://www.mercadolivre.com.br/chiaperini-lava-jato-lj-330-trifasico-azul-220v/p/MLB19551755?product_trigger_id=MLB19551754&attributes=COLOR%3AAzul%2CVOLTAGE%3A220V_vpp&picker=true&quantity=1" target="_blank" class="block w-full text-center mt-8 py-4 gradient-bg text-white font-bold rounded-2xl shadow-lg shadow-indigo-200 hover:shadow-indigo-300 transition-all">
-                        Ver Detalhes
-                    </a>
+                    <a href="https://www.mercadolivre.com.br/chiaperini-lava-jato-lj-330-trifasico-azul-220v/p/MLB19551755?product_trigger_id=MLB19551754&attributes=COLOR%3AAzul%2CVOLTAGE%3A220V_vpp&picker=true&quantity=1" target="_blank" class="block w-full text-center mt-8 py-4 gradient-bg text-white font-bold rounded-2xl shadow-lg shadow-indigo-200 hover:shadow-indigo-300 transition-all">Ver Detalhes</a>
                 </div>
             </div>
 
-            <div class="glass-card rounded-[2rem] overflow-hidden shadow-sm">
+            <!-- Card 9 -->
+            <div class="glass-card rounded-[2rem] overflow-hidden shadow-sm relative">
                 <div class="relative p-6 bg-slate-50">
-                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_813816-MLA99527117002_122025-F.webp" alt="Eletroplas EL-4000V3" class="w-full h-64 object-contain mix-blend-multiply">
-                    
+                    <div class="absolute top-4 left-4 z-10">
+                        <span class="badge-number px-4 py-1 rounded-lg text-sm font-black shadow-md">#09</span>
+                    </div>
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_813816-MLA99527117002_122025-F.webp" alt="CHIAPERINI LJ3100" class="w-full h-64 object-contain mix-blend-multiply">
                 </div>
                 <div class="p-8">
                     <div class="flex flex-col mb-6">
                         <h2 class="text-2xl font-extrabold text-slate-900 mb-2">CHIAPERINI LJ3100</h2>
-                        <div class="flex items-baseline gap-2 mb-3">
-                            <span class="text-3xl font-extrabold text-indigo-600">R$ 2.707,66</span>
-                        </div>
+                        <div class="flex items-baseline gap-2 mb-3"><span class="text-3xl font-extrabold text-indigo-600">R$ 2.707,66</span></div>
                         <div class="flex flex-col gap-2">
-                            <div>
-                                <span class="badge-purple px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-truck mr-1"></i>+ R$ 102,99</span>
-                            </div>
-                            <div>
-                                <span class="bg-orange-50 text-orange-600 px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-store mr-1"></i>MERCADO LIVRE</span>
-                            </div>
+                            <div><span class="badge-purple px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-truck mr-1"></i>+ R$ 102,99</span></div>
+                            <div><span class="bg-orange-50 text-orange-600 px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-store mr-1"></i>MERCADO LIVRE</span></div>
                         </div>
                     </div>
-
                     <div class="space-y-4 border-t border-slate-100 pt-6">
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Vazão</span>
-                            <span class="font-bold text-slate-900">26 L/min</span>
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Pressão</span>
-                            <span class="font-bold text-slate-900">27,58 bar</span>
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Motor</span>
-                            <span class="font-bold text-slate-900">3.0 CV</span>
-                        </div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Vazão</span><span class="font-bold text-slate-900">26 L/min</span></div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Pressão</span><span class="font-bold text-slate-900">27,58 bar</span></div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Motor</span><span class="font-bold text-slate-900">3.0 CV</span></div>
                     </div>
-                    
-                    <!-- Botão alterado para Link -->
-                    <a href="https://www.mercadolivre.com.br/chiaperini-lava-jato-lj-3100-00867-pretovermelho-220v/p/MLB18333507?product_trigger_id=MLB18333507&attributes=COLOR%3APreto%2FVermelho%2CVOLTAGE%3A220V_vpp&picker=true&quantity=1" target="_blank" class="block w-full text-center mt-8 py-4 gradient-bg text-white font-bold rounded-2xl shadow-lg shadow-indigo-200 hover:shadow-indigo-300 transition-all">
-                        Ver Detalhes
-                    </a>
+                    <a href="https://www.mercadolivre.com.br/chiaperini-lava-jato-lj-3100-00867-pretovermelho-220v/p/MLB18333507?product_trigger_id=MLB18333507&attributes=COLOR%3APreto%2FVermelho%2CVOLTAGE%3A220V_vpp&picker=true&quantity=1" target="_blank" class="block w-full text-center mt-8 py-4 gradient-bg text-white font-bold rounded-2xl shadow-lg shadow-indigo-200 hover:shadow-indigo-300 transition-all">Ver Detalhes</a>
                 </div>
             </div>
 
-            <div class="glass-card rounded-[2rem] overflow-hidden shadow-sm">
+            <!-- Card 10 -->
+            <div class="glass-card rounded-[2rem] overflow-hidden shadow-sm relative">
                 <div class="relative p-6 bg-slate-50">
-                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_988834-MLA99454063860_112025-F.webp" alt="Eletroplas EL-4000V3" class="w-full h-64 object-contain mix-blend-multiply">
-                    
+                    <div class="absolute top-4 left-4 z-10">
+                        <span class="badge-number px-4 py-1 rounded-lg text-sm font-black shadow-md">#10</span>
+                    </div>
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_988834-MLA99454063860_112025-F.webp" alt="ELETROPLAS EL-4000 V3" class="w-full h-64 object-contain mix-blend-multiply">
                 </div>
                 <div class="p-8">
                     <div class="flex flex-col mb-6">
                         <h2 class="text-2xl font-extrabold text-slate-900 mb-2">ELETROPLAS EL-4000 V3</h2>
-                        <div class="flex items-baseline gap-2 mb-3">
-                            <span class="text-3xl font-extrabold text-indigo-600">R$ 2.207,89</span>
-                        </div>
+                        <div class="flex items-baseline gap-2 mb-3"><span class="text-3xl font-extrabold text-indigo-600">R$ 2.207,89</span></div>
                         <div class="flex flex-col gap-2">
-                            <div>
-                                <span class="badge-purple px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-truck mr-1"></i>+ R$ 103,99</span>
-                            </div>
-                            <div>
-                                <span class="bg-orange-50 text-orange-600 px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-store mr-1"></i>MERCADO LIVRE</span>
-                            </div>
+                            <div><span class="badge-purple px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-truck mr-1"></i>+ R$ 103,99</span></div>
+                            <div><span class="bg-orange-50 text-orange-600 px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-store mr-1"></i>MERCADO LIVRE</span></div>
                         </div>
                     </div>
-
                     <div class="space-y-4 border-t border-slate-100 pt-6">
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Vazão</span>
-                            <span class="font-bold text-slate-900">28 L/min</span>
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Pressão</span>
-                            <span class="font-bold text-slate-900">27,58 bar</span>
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Motor</span>
-                            <span class="font-bold text-slate-900">WEG 3.0 CV</span>
-                        </div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Vazão</span><span class="font-bold text-slate-900">28 L/min</span></div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Pressão</span><span class="font-bold text-slate-900">27,58 bar</span></div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Motor</span><span class="font-bold text-slate-900">WEG 3.0 CV</span></div>
                     </div>
-                    
-                    <!-- Botão alterado para Link -->
-                    <a href="https://www.mercadolivre.com.br/lavadora-alta-vazao-3hp-el-4000v3-mono-eletroplas-cor-cinza/p/MLB18553539#polycard_client=search-desktop&search_layout=grid&position=2&type=product&tracking_id=000cef45-7785-4c23-8f7e-0f7e131a6caf&wid=MLB5512459804&sid=search" target="_blank" class="block w-full text-center mt-8 py-4 gradient-bg text-white font-bold rounded-2xl shadow-lg shadow-indigo-200 hover:shadow-indigo-300 transition-all">
-                        Ver Detalhes
-                    </a>
+                    <a href="https://www.mercadolivre.com.br/lavadora-alta-vazao-3hp-el-4000v3-mono-eletroplas-cor-cinza/p/MLB18553539#polycard_client=search_desktop&search_layout=grid&position=2&type=product&tracking_id=000cef45-7785-4c23-8f7e-0f7e131a6caf&wid=MLB5512459804&sid=search" target="_blank" class="block w-full text-center mt-8 py-4 gradient-bg text-white font-bold rounded-2xl shadow-lg shadow-indigo-200 hover:shadow-indigo-300 transition-all">Ver Detalhes</a>
                 </div>
             </div>
 
-            <div class="glass-card rounded-[2rem] overflow-hidden shadow-sm">
+            <!-- Card 11 -->
+            <div class="glass-card rounded-[2rem] overflow-hidden shadow-sm relative">
                 <div class="relative p-6 bg-slate-50">
-                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_988834-MLA99454063860_112025-F.webp" alt="Eletroplas EL-4000V3" class="w-full h-64 object-contain mix-blend-multiply">
-                    
+                    <div class="absolute top-4 left-4 z-10">
+                        <span class="badge-number px-4 py-1 rounded-lg text-sm font-black shadow-md">#11</span>
+                    </div>
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_988834-MLA99454063860_112025-F.webp" alt="ELETROPLAS EL-4000 V3" class="w-full h-64 object-contain mix-blend-multiply">
                 </div>
                 <div class="p-8">
                     <div class="flex flex-col mb-6">
                         <h2 class="text-2xl font-extrabold text-slate-900 mb-2">ELETROPLAS EL-4000 V3</h2>
-                        <div class="flex items-baseline gap-2 mb-3">
-                            <span class="text-3xl font-extrabold text-indigo-600">R$ 3.500,00</span>
-                        </div>
+                        <div class="flex items-baseline gap-2 mb-3"><span class="text-3xl font-extrabold text-indigo-600">R$ 3.500,00</span></div>
                         <div class="flex flex-col gap-2">
-                            <div>
-                                <span class="badge-purple px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-truck mr-1"></i>RETIRAR NA LOJA</span>
-                            </div>
-                            <div>
-                                <span class="bg-orange-50 text-orange-600 px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-store mr-1"></i>DISAGUA ARIQUEMES</span>
-                            </div>
+                            <div><span class="badge-purple px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-truck mr-1"></i>RETIRAR NA LOJA</span></div>
+                            <div><span class="bg-orange-50 text-orange-600 px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-store mr-1"></i>DISAGUA ARIQUEMES</span></div>
                         </div>
                     </div>
-
                     <div class="space-y-4 border-t border-slate-100 pt-6">
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Vazão</span>
-                            <span class="font-bold text-slate-900">28 L/min</span>
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Pressão</span>
-                            <span class="font-bold text-slate-900">27,58 bar</span>
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Motor</span>
-                            <span class="font-bold text-slate-900">WEG 3.0 CV</span>
-                        </div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Vazão</span><span class="font-bold text-slate-900">28 L/min</span></div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Pressão</span><span class="font-bold text-slate-900">27,58 bar</span></div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Motor</span><span class="font-bold text-slate-900">WEG 3.0 CV</span></div>
                     </div>
-                    
-                    <!-- Botão alterado para Link -->
-                    <a href="#" class="block w-full text-center mt-8 py-4 gradient-bg text-white font-bold rounded-2xl shadow-lg shadow-indigo-200 hover:shadow-indigo-300 transition-all">
-                        Ver Detalhes
-                    </a>
+                    <a href="#" class="block w-full text-center mt-8 py-4 gradient-bg text-white font-bold rounded-2xl shadow-lg shadow-indigo-200 hover:shadow-indigo-300 transition-all">Ver Detalhes</a>
                 </div>
             </div>
 
-            <div class="glass-card rounded-[2rem] overflow-hidden shadow-sm">
+            <!-- Card 12 -->
+            <div class="glass-card rounded-[2rem] overflow-hidden shadow-sm relative">
                 <div class="relative p-6 bg-slate-50">
-                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_847438-MLA99502976334_112025-F.webp" alt="Eletroplas EL-4000V3" class="w-full h-64 object-contain mix-blend-multiply">
-                    
+                    <div class="absolute top-4 left-4 z-10">
+                        <span class="badge-number px-4 py-1 rounded-lg text-sm font-black shadow-md">#12</span>
+                    </div>
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_847438-MLA99502976334_112025-F.webp" alt="ELETROPLAS EL-3500A" class="w-full h-64 object-contain mix-blend-multiply">
                 </div>
                 <div class="p-8">
                     <div class="flex flex-col mb-6">
                         <h2 class="text-2xl font-extrabold text-slate-900 mb-2">ELETROPLAS EL-3500A</h2>
-                        <div class="flex items-baseline gap-2 mb-3">
-                            <span class="text-3xl font-extrabold text-indigo-600">R$ 1.427,40</span>
-                        </div>
+                        <div class="flex items-baseline gap-2 mb-3"><span class="text-3xl font-extrabold text-indigo-600">R$ 1.427,40</span></div>
                         <div class="flex flex-col gap-2">
-                            <div>
-                                <span class="badge-purple px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-truck mr-1"></i>FRETE GRÁTIS</span>
-                            </div>
-                            <div>
-                                <span class="bg-orange-50 text-orange-600 px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-store mr-1"></i>MERCADO LIVRE</span>
-                            </div>
+                            <div><span class="badge-purple px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-truck mr-1"></i>FRETE GRÁTIS</span></div>
+                            <div><span class="bg-orange-50 text-orange-600 px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-store mr-1"></i>MERCADO LIVRE</span></div>
                         </div>
                     </div>
-
                     <div class="space-y-4 border-t border-slate-100 pt-6">
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Vazão</span>
-                            <span class="font-bold text-slate-900">12 L/min</span>
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Pressão</span>
-                            <span class="font-bold text-slate-900">24 bar</span>
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Motor</span>
-                            <span class="font-bold text-slate-900">WEG 1.0 CV</span>
-                        </div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Vazão</span><span class="font-bold text-slate-900">12 L/min</span></div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Pressão</span><span class="font-bold text-slate-900">24 bar</span></div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Motor</span><span class="font-bold text-slate-900">WEG 1.0 CV</span></div>
                     </div>
-                    
-                    <!-- Botão alterado para Link -->
-                    <a href="https://www.mercadolivre.com.br/eletroplas-profissional-el-3500a-cinzavermelho-220v-60-hz/p/MLB19155603?product_trigger_id=MLB19155603&attributes=COLOR%3ACinza%2FVermelho%2CVOLTAGE%3A220V_vpp&picker=true&quantity=1" target="_blank" class="block w-full text-center mt-8 py-4 gradient-bg text-white font-bold rounded-2xl shadow-lg shadow-indigo-200 hover:shadow-indigo-300 transition-all">
-                        Ver Detalhes
-                    </a>
+                    <a href="https://www.mercadolivre.com.br/eletroplas-profissional-el-3500a-cinzavermelho-220v-60-hz/p/MLB19155603?product_trigger_id=MLB19155603&attributes=COLOR%3ACinza%2FVermelho%2CVOLTAGE%3A220V_vpp&picker=true&quantity=1" target="_blank" class="block w-full text-center mt-8 py-4 gradient-bg text-white font-bold rounded-2xl shadow-lg shadow-indigo-200 hover:shadow-indigo-300 transition-all">Ver Detalhes</a>
                 </div>
             </div>
 
-            <div class="glass-card rounded-[2rem] overflow-hidden shadow-sm">
+            <!-- Card 13 -->
+            <div class="glass-card rounded-[2rem] overflow-hidden shadow-sm relative">
                 <div class="relative p-6 bg-slate-50">
-                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_774968-MLA100749007127_122025-F.webp" alt="Eletroplas EL-4000V3" class="w-full h-64 object-contain mix-blend-multiply">
-                    
+                    <div class="absolute top-4 left-4 z-10">
+                        <span class="badge-number px-4 py-1 rounded-lg text-sm font-black shadow-md">#13</span>
+                    </div>
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_774968-MLA100749007127_122025-F.webp" alt="KARCHER HF 1600" class="w-full h-64 object-contain mix-blend-multiply">
                 </div>
                 <div class="p-8">
                     <div class="flex flex-col mb-6">
                         <h2 class="text-2xl font-extrabold text-slate-900 mb-2">KARCHER HF 1600</h2>
-                        <div class="flex items-baseline gap-2 mb-3">
-                            <span class="text-3xl font-extrabold text-indigo-600">R$ 3.870,20</span>
-                        </div>
+                        <div class="flex items-baseline gap-2 mb-3"><span class="text-3xl font-extrabold text-indigo-600">R$ 3.870,20</span></div>
                         <div class="flex flex-col gap-2">
-                            <div>
-                                <span class="badge-purple px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-truck mr-1"></i>FRETE GRÁTIS</span>
-                            </div>
-                            <div>
-                                <span class="bg-orange-50 text-orange-600 px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-store mr-1"></i>MERCADO LIVRE</span>
-                            </div>
+                            <div><span class="badge-purple px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-truck mr-1"></i>FRETE GRÁTIS</span></div>
+                            <div><span class="bg-orange-50 text-orange-600 px-3 py-1 rounded-lg text-xs font-bold block w-fit"><i class="fas fa-store mr-1"></i>MERCADO LIVRE</span></div>
                         </div>
                     </div>
-
                     <div class="space-y-4 border-t border-slate-100 pt-6">
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Vazão</span>
-                            <span class="font-bold text-slate-900">26 L/min</span>
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Pressão</span>
-                            <span class="font-bold text-slate-900">40 bar</span>
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-500 font-medium">Motor</span>
-                            <span class="font-bold text-slate-900">2.0 CV</span>
-                        </div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Vazão</span><span class="font-bold text-slate-900">26 L/min</span></div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Pressão</span><span class="font-bold text-slate-900">40 bar</span></div>
+                        <div class="flex items-center justify-between"><span class="text-slate-500 font-medium">Motor</span><span class="font-bold text-slate-900">2.0 CV</span></div>
                     </div>
-                    
-                    <!-- Botão alterado para Link -->
-                    <a href="https://www.mercadolivre.com.br/lavadora-de-alta-vazo-industrial-hf-1600-2cv-karcher/p/MLB62960957#polycard_client=search-desktop&search_layout=grid&position=23&type=product&tracking_id=99b196d7-4f6f-4e6f-8eb8-2ef8ab7a1c0d&wid=MLB6136575776&sid=search" target="_blank" class="block w-full text-center mt-8 py-4 gradient-bg text-white font-bold rounded-2xl shadow-lg shadow-indigo-200 hover:shadow-indigo-300 transition-all">
-                        Ver Detalhes
-                    </a>
+                    <a href="https://www.mercadolivre.com.br/lavadora-de-alta-vazo-industrial-hf-1600-2cv-karcher/p/MLB62960957#polycard_client=search_desktop&search_layout=grid&position=23&type=product&tracking_id=99b196d7-4f6f-4e6f-8eb8-2ef8ab7a1c0d&wid=MLB6136575776&sid=search" target="_blank" class="block w-full text-center mt-8 py-4 gradient-bg text-white font-bold rounded-2xl shadow-lg shadow-indigo-200 hover:shadow-indigo-300 transition-all">Ver Detalhes</a>
                 </div>
             </div>
 
